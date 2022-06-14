@@ -1,0 +1,456 @@
+@import "_reset" , '_mixins' , '_keyframes';
+
+
+/* Estilos Generales */
+.wrapper {
+  width: 90%;
+  max-width: 75em;
+  margin: auto;
+}
+
+.Preload{
+  position: fixed;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  background-color: var(--blanco);
+  background: linear-gradient(-90deg, #ebcf80 0%, #d93648 100%);
+  z-index: 4;
+  pointer-events: none;
+
+  animation: preload 2s ease 1 3s both  ;
+  @include flex( flex , column , nowrap , center , center );
+
+  &-img{
+    max-width: 10em;
+    animation: preloadLogo 2s ease 1 1s both  ;
+    fill: var(--blanco);
+  }
+}
+
+
+/* Cabecera */
+.Header {
+  width: 100%;
+  background: linear-gradient(-90deg, rgba(56,211,166,.6) 0%, rgba(0,39,173,.6) 100%);
+  margin: 0 0 1em;
+  padding:.5em 0 ;
+  color:var(--blanco);
+  
+  position: fixed;
+  top:0;
+  z-index: 3;
+  
+  backdrop-filter: blur(50px);
+  font-weight: 500;
+
+  animation: slideDown 2s ease 1 4s both;
+
+  &-wrapper {
+    max-width: 75rem;
+    @include flex( flex , row , wrap , space-between , center );
+    font-size: .8em;
+  }
+  &-menu {
+    display: none;
+    @include media(){
+      display: block;
+    }
+    order: 1;
+  }
+  &-hamburguesa {
+    width: 3em;
+    height: 3em;
+    
+  }
+
+
+  &-h1 {
+    max-width: 10rem;
+    @include flex( flex , row, nowrap , center , center );
+    
+    @include media()  {
+      display: none;
+    }
+  }
+  &-nav {
+    
+    @include flex( flex , column , nowrap , center , center);
+    @include media(){
+      order: 3;
+      width: 100%;
+      height: 0vh;
+      transition: all .5s ease;
+      opacity: 0;
+      pointer-events: none;
+      
+      &.active{
+        height: 60vh;
+        opacity: 1;
+        pointer-events: auto;
+      }  
+    }
+
+    
+
+  }
+  &-ul {
+    padding: 1em;
+    @include flex( flex , row, nowrap , center , center );
+    @include media(){
+      flex-direction: column;
+    }
+
+  }
+  &-li {
+    
+    
+    margin: 0 1em;
+    position: relative;
+    text-align: center;
+    
+    cursor: pointer;
+
+    &:hover .Header-submenu{
+      opacity: 1;
+      transform: translateY(0%);
+      pointer-events: auto;
+    }
+    @include media(){
+      margin: 1em 0;
+      width: 100%;
+    }
+  }
+  &-submenu {
+    position: absolute;
+    
+    background-color: rgba(0,0,0,1);
+    backdrop-filter: blur(50px);
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all .5s ease;
+    transform: translateY(-10%);
+    
+    &.active , &:hover {
+      opacity: 1;
+      position: absolute;
+      margin: 1em  0 0;
+      @include media(){
+        position: relative;
+      }
+    }
+
+    
+    
+  }
+  &-subli {
+    padding: .5em 1em;
+  }
+  
+  &-extras {
+    @include flex( flex , row , nowrap , flex-end , center );
+    order: 2;
+  }
+  &-extra {
+    margin: 0 0 0 1em;
+  }
+  &-svg {
+    width: 2em;
+    height: 2em;
+    @include media(){ order: 1}
+  }
+  &-span {
+    @include media(){ order: 2 }
+    &--pc{
+      @include media(){
+        display: none;
+      }
+    }
+    &--mv{
+      display: none;
+      @include media(){
+        display: block;
+      }
+    }
+  }
+  &-btn {
+    @include flex( flex , row , nowrap , space-between , center );
+    @include media(){
+      flex-direction: column;
+    }
+    &--tickets {
+      display: none;
+
+      @include media(){
+        display: flex;
+      }
+    }
+  }
+  &-img {}
+  &-info {}
+  &-link {
+    width: 100%;
+    padding: 1em 0;
+  }
+  &-logo {}
+}
+.Main {
+  &-section {
+  }
+}
+.Intro {
+  min-height: 85vh;
+  // background: url(../assets/bg.jpg) no-repeat center center / cover fixed;
+
+  @include flex( flex , column , nowrap , center , center );
+  color:var(--blanco);
+  position: relative;
+
+  // animation: scaleVideo 2s ease 1 3s both ;
+
+  &-wrapper {
+    width: 90%;
+    max-width: 33.75em;
+    @include media(){
+      max-width: 15em;
+    }
+  }
+  
+  &-video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: lime;
+    top:0;
+    left:0;
+    z-index: -1;
+  }
+  &-logo{
+    max-width: 15em;
+    min-height: 10em;
+    margin: 0 auto 2.5em;
+
+    animation: scaleLogo 1s ease 1 3.4s both;
+
+  }
+  &-ul{
+    @include flex ( flex , row , nowrap , space-between , center );
+    @include media(){ flex-direction: column; }
+  }
+  &-li{
+    flex-basis: calc( 50% - 1em );
+    
+    @include media(){
+      flex-basis: initial;
+      width: 100%;
+      margin: 0 0 1em;
+    }
+  }
+  &-a{
+    
+    padding: 1em 0;
+    @include flex( flex , row , nowrap , center , center );
+    position: relative;
+    font-weight: 600;
+
+    &::after{
+      content: '';
+      display: block;
+      position: absolute;
+      width:calc( 100% - 1em);
+      height:calc( 100% - 1em);
+      background-color: var(--negro);
+      z-index: 0;
+      transition: all .5s ease;
+      opacity: 1;
+    }
+    &:hover::after{
+      opacity: 0;
+    }
+    &--madcool{
+        background: linear-gradient(-90deg, rgba(56,211,166,1) 0%, rgba(0,39,173,1) 100%);
+        animation: slideUp 2s ease 1 3.2s both;
+        
+        &::after{
+          background: linear-gradient(90deg, rgba(56,211,166,1) 0%, rgba(0,39,173,1) 100%);  
+        }
+      }
+    &--sunset{
+        background: linear-gradient(-90deg, #ebcf80 0%, #d93648 100%);
+        animation: slideUp 1.8s ease 1 3.4s both;
+        
+        &::after{
+          background: linear-gradient(90deg, #ebcf80 0%, #d93648 100%);  
+        }
+        
+    }
+  }
+  &-svg{
+    width: 2em;
+    height: 2em;
+    position: relative;
+    z-index: 2;
+  }
+  &-span{
+    margin: 0 0 0 .5em;
+    position: relative;
+    z-index: 2;
+  }
+}
+.Carteles {
+  background: linear-gradient(45deg, rgba(56,211,166,1) 0%, rgba(0,39,173,1) 100%);
+  
+  &-wrapper {
+    position: relative;
+    top: -2em;
+    display: grid;
+    grid-template-columns: repeat( 2 , 1fr );
+    gap: 3em;
+
+    @include media(){
+      grid-template-columns: 1fr;
+    }
+  }
+  &-a {
+    
+    &--madcool{
+      animation: slideUp 2s ease 1 3.2s both;
+    }
+    &--sunset{
+      animation: slideUp 1.8s ease 1 3.4s both;
+    }
+  }
+  &-img {
+    min-height: 10rem;
+    background-color: aqua;
+  }
+  
+}
+.Noticias {
+  &-banner {
+    padding:4em 0 0;
+  }
+  &-h2{
+    @include flex( flex , column , nowrap , center , center );
+    margin: 2em 0 1em;
+
+    font-size: 2em;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:var(--negro);
+
+    &::after{
+      content: '';
+      display: flex;
+      width: 100%;
+      max-width: 6em;
+      min-height: .2em;
+      background-color: var(--negro);
+      margin: .5em 0 0;
+    }
+  }
+  &-grid {
+    margin: 0 0 2em;
+
+    display: grid;
+    grid-template-columns: repeat( 2 , 1fr );
+    gap:1em;
+
+    @include media(){
+      grid-template-columns: 1fr;
+    }
+
+  }
+  &-noticia {}
+  &-cover {
+    margin: 0 0 1em;
+  }
+  &-h3 {
+    min-height: 3em;
+    font-weight: 700;
+    color:var(--negro);
+  }
+  &-fecha {
+    font-style:italic;
+    color:var(--gris);
+  }
+
+  &-more {
+    max-width: 16em;
+    border:.2em solid var(--crimson);
+
+    margin: 0 auto 4em;
+    padding:1em 2em;
+    
+    color:var(--crimson);
+    font-weight: 600;
+    text-align: center;   
+
+    &::after{ content: '...'; }
+  }
+  
+}
+.Footer {
+  background-color: var(--gris);
+  
+  &-wrapper {
+  }
+  &-faq {
+    @include flex( flex , row , wrap , center , center );
+    padding: 2.5em 0; 
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9em;
+
+    @include media(){
+      flex-direction: column;
+    }
+  }
+  &-li {
+    margin: .5em 1em;
+  }
+  &-a {}
+
+  
+  &-patrocinios {
+    width: 100%;
+    background-color: var(--negro);
+    color:var(--blanco);
+    padding: 4em 0;
+  }
+  &-dl {
+    margin: 0 0 1em;
+    @include flex( flex , row , wrap , flex-start , center );
+    @include media(){ justify-content: center; }
+  }
+  &-dt {
+    width:100%;
+    @include media(){ text-align: center; }
+    margin: 0 0 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9em;
+    color:grey;
+  }
+  &-dd {
+    margin: 0 .5em .5em 0;
+  }
+  &-link {}
+  &-img {
+    max-width: 5em;
+  }
+  
+}
+.Sidebar {
+  background-color: var(--gris);
+  display: none;
+
+  &-a{}
+  &-li{}
+  &-svg{}
+}

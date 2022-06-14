@@ -1,0 +1,63 @@
+@keyframes preload{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes preloadLogo{
+    0%{
+        transform: scale(0);
+    }
+    25%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes scaleVideo{
+    from{
+        min-height: 100vh;
+    }
+    to{
+        min-height: 85vh;
+    }
+}
+@keyframes scaleLogo{
+    from{
+        transform: scale(.8);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes slideDown{
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@keyframes slideUp{
+    from{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
