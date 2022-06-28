@@ -4,7 +4,7 @@ Este es el copycat de la web de MadCool 2022 creado en directo desde [Twitch](ht
 
 ## 🔗 Enlaces:
 * [Web original](https://madcoolfestival.es)
-* [Copycat]()
+* [Copycat](https://eduardofierropro.github.io/Madcool-2022/)
 
 ## 🔴 Vídeos relacionados en Youtube 
 
