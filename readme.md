@@ -3,17 +3,18 @@
 
 Este es el copycat de la web de MadCool 2022 creado en directo desde [Twitch](https://twitch.tv/eduardofierropro) y resubido a [Youtube](https://youtu.be/mozRjGUSOm8).
 
-[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=0ABF53&style=for-the-badge)](https://eduardofierropro.github.io/Madcool-2022/)
+[![Original website](https://img.shields.io/static/v1?label=&message=Original%20Site&color=0ABF53&style=for-the-badge)](https://madcoolfestival.es/)
+[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=red&style=for-the-badge)](https://eduardofierropro.github.io/Madcool-2022/)
 [![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/eduardofierropro/Madcool-2022)
 
 ![Imagen del proyecto](https://github.com/eduardofierropro/Madcool-2022/blob/main/assets/home1.png)
 
 ## Tecnologías usadas
+![HTML](https://img.shields.io/static/v1?label=&message=Html&color=orange&logo=html5&logoColor=white&style=for-the-badge)
+![SASS](https://img.shields.io/static/v1?label=&message=SASS&color=CC6699&logo=sass&logoColor=white&style=for-the-badge)
+![TypeScript](https://img.shields.io/static/v1?label=&message=TypeScript&color=3178C6&logo=typescript&logoColor=white&style=for-the-badge)
+![BEM Methodology](https://img.shields.io/static/v1?label=&message=BEM%20Methodology&color=17A1E6&logo=bem&logoColor=white&style=for-the-badge)
 
-
-## 🔗 Enlaces:
-* [Web original](https://madcoolfestival.es)
-* [Copycat](https://eduardofierropro.github.io/Madcool-2022/)
 
 ## 🔴 Vídeos relacionados en Youtube 
 
