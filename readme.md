@@ -11,7 +11,7 @@ Este es el copycat de la web de MadCool 2022 creado en directo desde [Twitch](ht
 
 ## 🔴 Vídeos relacionados en Youtube 
 
-* [Playlist Completa](https://www.youtube.com/playlist?list=PLJpymL0goBgETNW1I1rmuTUl-yoaRDUe5)****
+* [Playlist Completa](https://www.youtube.com/playlist?list=PLJpymL0goBgETNW1I1rmuTUl-yoaRDUe5)
 * [Programando DC Shoes USA](https://youtu.be/nUu--X0mmlo)
 * [Programando un Portfolio](https://youtu.be/XAwXz2w3vlg)
 * [Programando Google Stadia](https://youtu.be/LtyWVeFE4uM)
