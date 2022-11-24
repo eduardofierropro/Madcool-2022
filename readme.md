@@ -1,9 +1,16 @@
+![Imagen del proyecto](https://github.com/eduardofierropro/Madcool-2022/blob/main/assets/home1.png)
+
 # CopyCat MadCool 2022
 
 Este es el copycat de la web de MadCool 2022 creado en directo desde [Twitch](https://twitch.tv/eduardofierropro) y resubido a [Youtube](https://youtu.be/mozRjGUSOm8).
 
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Madcool-2022/blob/main/assets/home1.png)
+[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=0ABF53&style=for-the-badge)](https://eduardofierropro.github.io/Madcool-2022/)
+[![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/eduardofierropro/Madcool-2022)
+
+
+## Tecnologías usadas
+
 
 ## 🔗 Enlaces:
 * [Web original](https://madcoolfestival.es)
