@@ -14,7 +14,17 @@ Este es el copycat de la web de MadCool 2022 creado en directo desde [Twitch](ht
 ![HTML](https://img.shields.io/static/v1?label=&message=Html&color=orange&logo=html5&logoColor=white&style=for-the-badge)
 ![SASS](https://img.shields.io/static/v1?label=&message=SASS&color=CC6699&logo=sass&logoColor=white&style=for-the-badge)
 ![TypeScript](https://img.shields.io/static/v1?label=&message=TypeScript&color=3178C6&logo=typescript&logoColor=white&style=for-the-badge)
-![BEM Methodology](https://img.shields.io/static/v1?label=&message=BEM%20Methodology&color=17A1E6&logo=bem&logoColor=white&style=for-the-badge)
+![SUITCSS Methodology](https://img.shields.io/static/v1?label=&message=suitcss%20methodology&color=lightblue&logo=suit&logoColor=white&style=for-the-badge)
+
+> Aclaraciones:
+>
+> No ha sido probado para tener soporte crossbrowsing
+>
+> El diseño de la web original puede variar
+>
+> Ha sido programado con fines de entretenimiento
+>
+> No lo uses en tu propio portfolio sino como referencia o práctica
 
 ## 🔴 Vídeos y repositorios de otras programaciones
 
