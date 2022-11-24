@@ -7,6 +7,7 @@ Este es el copycat de la web de MadCool 2022 creado en directo desde [Twitch](ht
 [![Original website](https://img.shields.io/static/v1?label=&message=Original%20Site&color=4d94b3&style=for-the-badge)](https://madcoolfestival.es/)
 [![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://eduardofierropro.github.io/Madcool-2022/)
 [![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/eduardofierropro/Madcool-2022)
+[![Youtube](https://img.shields.io/static/v1?label=&message=ver%20en%20youtube&color=FF0000&logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/mozRjGUSOm8)
 
 ## Tecnologías usadas
 
@@ -19,7 +20,7 @@ Este es el copycat de la web de MadCool 2022 creado en directo desde [Twitch](ht
 
 | Enlace | Youtube | Github | Github Pages |
 |--|--|--|--|
-|[Playlist de todas las webs](https://www.youtube.com/playlist?list=PLJpymL0goBgETNW1I1rmuTUl-yoaRDUe5)|-|-|-|
+|Playlist de todas las webs                         |[![Youtube](https://img.shields.io/static/v1?label=&message=ver%20playlist&color=FF0000&logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/playlist?list=PLJpymL0goBgETNW1I1rmuTUl-yoaRDUe5)|-|-|
 |Forbes para Jordi Wild, Nate Gentile y Oscar Dorta |[![Youtube](https://img.shields.io/static/v1?label=&message=ver%20en%20youtube&color=FF0000&logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/RbrVM1acWx8)|[![github](https://img.shields.io/static/v1?label=&message=ver%20repo&color=171515&logo=github&logoColor=white&style=for-the-badge)](https://github.com/eduardofierropro/Forbes-con-Jordi-Wild--Nate-Gentile-y-Oscar-Dorta/)|[![github](https://img.shields.io/static/v1?label=&message=ver%20pages&color=171515&logo=github&logoColor=white&style=for-the-badge)](https://forbes-eduardofierropro.netlify.app/)|
 |God of war: Ragnarok                               |[![Youtube](https://img.shields.io/static/v1?label=&message=ver%20en%20youtube&color=FF0000&logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/watch?v=YV8PON9MVl8)|[![github](https://img.shields.io/static/v1?label=&message=ver%20repo&color=171515&logo=github&logoColor=white&style=for-the-badge)](https://github.com/eduardofierropro/God-of-war-ragnarok)|[![github](https://img.shields.io/static/v1?label=&message=ver%20pages&color=171515&logo=github&logoColor=white&style=for-the-badge)](https://eduardofierropro.github.io/God-of-war-ragnarok/)|
 |MadCool 2022                                       |[![Youtube](https://img.shields.io/static/v1?label=&message=ver%20en%20youtube&color=FF0000&logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/mozRjGUSOm8)|[![github](https://img.shields.io/static/v1?label=&message=ver%20repo&color=171515&logo=github&logoColor=white&style=for-the-badge)](https://github.com/eduardofierropro/Madcool-2022)|[![github](https://img.shields.io/static/v1?label=&message=ver%20pages&color=171515&logo=github&logoColor=white&style=for-the-badge)](https://eduardofierropro.github.io/Madcool-2022/)|
