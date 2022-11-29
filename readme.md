@@ -62,4 +62,4 @@ Este es el copycat de la web de MadCool 2022 creado en directo desde [Twitch](ht
 ## 📄 Licencia 
 
 MIT Public License v3.0
-No puede usarse comencialmente
+No puede usarse comercialmente
